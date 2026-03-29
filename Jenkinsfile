@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/vishnuteja13/devops-jenkins-project/tree/main'
+                git 'https://github.com/vishnuteja13/devops-jenkins-project'
             }
         }
 
